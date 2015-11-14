@@ -24,7 +24,7 @@ for i in 0...100 {
         print("\(i).-" + "Bingo e impar!!!")
     }
         
-    /* else if i%5 == 0 {
+    /* else if i%5 == 0 { 
         print("\(i).- " + "Bingo!!!")   Esta condición nunca se cumple
     } */
         
