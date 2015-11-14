@@ -1,0 +1,44 @@
+// Juego de Memoria
+// Jose Manuel Ortiz
+
+import UIKit
+
+
+for i in 0...100 {
+    if i%2 == 0 && i >= 30 && i <= 40 && i%5 == 0{
+        print("\(i).- " + "Viva Swift, par y bingo!!!")
+    }
+    else if i%2 != 0 && i >= 30 && i <= 40 && i%5 == 0{
+        print("\(i).- " + "Viva Swift, impar y bingo!!!")
+    }
+    else if i%2 == 0 && i >= 30 && i <= 40 {
+        print("\(i).- " + "Viva Swift y par!!!")
+    }
+    else if i%2 != 0 && i >= 30 && i <= 40 {
+        print("\(i).- " + "Viva Swift e impar!!!")
+    }
+    else if i%5 == 0 && i%2 == 0 {
+        print("\(i).-" + "Bingo y par!!!")
+    }
+    else if i%5 == 0 && i%2 != 0 {
+        print("\(i).-" + "Bingo e impar!!!")
+    }
+        
+    /* else if i%5 == 0 {
+        print("\(i).- " + "Bingo!!!")   Esta condición nunca se cumple
+    } */
+        
+    else if i%2 == 0 {
+        print("\(i).- " + "par!!!")
+    }
+    else if i%2 != 0 {
+        print( "\(i).- " + "impar!!!")
+    }
+    /* else if i <= 30 && i >= 40 {
+        print("\(i).- " + "Viva Swift!!!")  Esta condición nunca se cumple
+    } */
+
+
+
+    
+}
